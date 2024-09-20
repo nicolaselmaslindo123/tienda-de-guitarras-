@@ -1,0 +1,98 @@
+{
+    margin: 0;
+    padding: 0;
+}
+.fondo1{
+    height: 50rem;
+    z-index: -1;
+    background: url(./header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+/*     opacity: 70%; */
+
+}
+
+.logo{
+    position: absolute;
+    z-index: 1;
+    width: 20rem;
+}
+
+.modelo{
+    font-size: 5rem;
+}
+
+.guitarra{
+    background-image: url(./header_guitarra.png);
+    background-repeat: no-repeat;
+    background-position-x: 90rem;
+    background-position-y: -20rem;
+    z-index: 1000;
+}
+.val{
+    margin-top: -10%;
+}
+
+.nav-link{
+    color: #fff;
+}
+
+.producto{
+    width: 15rem;
+}
+.navbar-toggler{
+    background-color: #fff;
+}
+
+.precio{
+    font-size: 3.5rem;
+
+}
+
+.ver:hover{
+    background-color: rgb(230, 136, 78);
+}
+
+.aprende{
+    height: 30rem;
+    background-image: url(./cursos_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.col-nav{
+    padding-top: 1rem;
+}
+.texto{
+    font-size: 3.5rem;
+
+}
+
+.blog{
+    width: 20rem;
+}
+
+.finalito{
+    height: 5rem;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+@media screen and (max-width:1000px){
+    .val{
+        margin-top: -63%;
+    }
+    .menu{
+        position: absolute;
+        margin-top: 45%;
+    }
+    .col-logo{
+        height: 40vh;
+    }
+    .col-nav{
+        margin-top: -22rem;
+    }
+    
+}
